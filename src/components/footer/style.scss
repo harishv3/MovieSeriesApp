@@ -1,0 +1,37 @@
+.footer{
+    background: #1e1e1e;
+    color: #a1b4b1;
+    width: 100%;
+    padding: 40px 130px 50px 50px;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        li{
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    &__seperator{
+        padding: 0 10px;
+    }
+    &__actions{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+    }
+    &__media{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        &--social{
+            width: 25px;
+            height: 25px;
+        }
+        &--store{
+            width: 135px;
+            height: 40px;
+        }
+    }
+}

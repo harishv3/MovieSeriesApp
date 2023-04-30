@@ -1,0 +1,32 @@
+.header{
+    background: #0082FE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 58px;
+    width: 100%;
+    padding: 0 45px 0 130px;
+    h1{
+        color: #FFFFFF;
+        font-weight: 700;
+    }
+    &__actions{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    &__login{
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+    &__freetrial{
+        background: #414141;
+        color: #FFFFFF;
+        height: 35px;
+        font-size: 14px;
+        line-height: 35px;
+        text-align: center;
+        padding: 0 12px;
+    }
+
+}

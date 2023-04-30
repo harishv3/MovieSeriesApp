@@ -1,0 +1,20 @@
+.card{
+  width: 130px;
+  &__container{
+    background-color: #1e1e1e;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    width: 130px;
+    height: 200px;
+    margin-bottom: 5px;
+    line-height: 200px;
+    text-align: center;
+  }
+  &__name{
+    font-size: 13px;
+    word-break: break-all;
+  }
+}
